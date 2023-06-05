@@ -1,1 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMW2</title>
+    <link rel="stylesheet" href="csscodes/banner.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">StylePro</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="choices.html">Suggestion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="game1.html">Game</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="ColorMatching.html">Color Matching</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tarihce.html">History</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fashionweek.html">Fashion Week</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
+      <div id="wrap">
+      <div id="head">
+        <div class="card text-center mb-3" style="width: 18rem;" id="cardinfo">
+            <div class="card-body">
+              <h5 class="card-title">StylePro</h5>
+              <p class="card-text">Discover expert fashion tips and stay ahead of the trends on our page.</p>
+              <a href="#gothere" class="btn btn-primary">DISCOVER</a>
+            </div>
+          </div>
+          
+      </div>
+      </div>
+
+    <div class="cont" id="gothere">
+        <div class="cont1">
+            <h1>Man</h1>
+            <p>
+              Refine your look with our curated men's fashion collection. From tailored suits to casual wear, explore classic and contemporary pieces that effortlessly blend style and comfort.
+            </p>
+            <a href="sugestionMen.html" class="link"><div class="buttonStyle">Man Page</div></a>
+        </div>
+        <div class="cont2">
+            <h1>Woman</h1>
+            <p>
+              Elevate your style with our trendy women's fashion collection. From versatile essentials to statement pieces, discover the latest trends and stylish accessories for every occasion.
+            </p>
+            <a href="suggestionWomen.html" class="link"><div class="buttonStyle">Woman Page</div></a>
+        </div>
+    </div>
+
+    <form class="form-container" id="contact-form">
+      <h2>Contact Us</h2>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      <div class="form-group">
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">For feedback and complaints:</label>
+        <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+      </div>
+      <button type="submit" id="submit-btn">Submit</button>
+    </form>
+    
+
+    <div class="card text-center mb-3" style="width: 20rem;" id="game">
+      <img src="image/banner/game.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title" id="nametitle"></h5>
+        <p class="card-text">Test your fashion knowledge and guess the 'Higher or Lower' prices of various clothing items in this exciting game!</p>
+        <button id="play-btn" class="btn btn-primary">Play now!</button>
+      </div>
+    </div>
+    
+
+
+    <footer>
+        <div id="footer-container">
+          <p id="copyright">
+            &copy; 2023 Fashion. All rights reserved.
+          </p>
+          <p id="follow-us">
+            Follow us on <a target="_blank" id="instagram-link">Instagram</a> and <a target="_blank" id="twitter-link">Twitter</a>
+          </p>
+        </div>
+    </footer>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="jscodes/banner.js"></script>
+</body>
+</html>
